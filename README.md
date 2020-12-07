@@ -27,7 +27,8 @@ The confusion matrix shows the labels that could provide further insight on the 
 For the implementation of this model, a list could be created to represent the present or non-present of tags used for a product. The list should contain 529 numbers, with 0 representing a tag not being present, and 1 representing a tag being present. 
 
 <img src="https://user-images.githubusercontent.com/65926359/101327144-232b8e80-3823-11eb-9faf-82d349f93ea9.png" width="90%"></img> 
-(The example above shows a random generated list that could represent a possible tags used on a product, and for this hypothetical product, the prediction is that it could be sold above 1000 units.)
+
+(The example above shows a random generated list that could represent a possible tags used on a product, and for this hypothetical product, the prediction is that it could be sold above 1000 units)
 
 Nevertheless, I also acknowledge that there may be some potential incompetence of this model. First of all, due to the fact that there are only 1573 rows of data available in the data set, the size of the data set might not be large enough to train a very accurate model. Secondly, because the goal of this model is to examine the relationship between specific tags used and the potential popularity of the product, I did not take into account other variables, such as the product’s price, discount, ads used on the product and etc. While specific tags used alone may not be causal to the result, a more complete model should take into account more variables. 
 

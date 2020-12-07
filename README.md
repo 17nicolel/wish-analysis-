@@ -10,7 +10,7 @@ A logistic regression model is created to analyze the correlation between tags a
 
 Due to the fact that the data was originally not cleaned and organized, the tags column (x variables) for the products table is first split into different columns, each containing a separate tag, then transformed into dummy variables, which in total consists of 529 dummy variables that each represent a different tag. The y variable is defined to be whether a product could be sold above 100 units, with True as sold above 1000 units and False as sold below 1000 units. 
 
-
+<img src="https://user-images.githubusercontent.com/65926359/101326691-7e10b600-3822-11eb-8476-0d8e8c108fbc.png" width="90%"></img> 
 
 (The above screenshot shows the output of the columns, after transforming string variables into dummy variables. A 0 represents the tag not present, and a 1 represents the tag present)
 
@@ -18,7 +18,7 @@ After the data is split to 70% training, and 30% testing, the data is trained ac
 
 Confusion matrix:
 
-
+<img src="https://user-images.githubusercontent.com/65926359/101326840-b2847200-3822-11eb-9047-8dc40fa4dc1e.png" width="90%"></img> 
 
 The confusion matrix shows the labels that could provide further insight on the accuracy rate. The diagonal from top left to bottom right shows when the prediction is right and the opposite diagonal shows when the prediction is wrong. It is observed that a high portion of inaccuracies is due to the False Positive label (23%). This means that there might be some products that will not perform as well as predicted. However, the True positive rate is also high with a 48%, which means that business will be less likely to miss out potential products that will perform as predicted. Therefore, this model could be qualified to use as a reference for business decisions. 
 
